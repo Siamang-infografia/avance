@@ -95,6 +95,9 @@
                 font-size: calc(1.5rem + 1vw);
             }
 
+            span[data-bs-toggle="popover"]{
+                cursor: pointer;
+            }             
 
             header{
                 background:linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 1) 100%), url(cositas/ramas2.jpg);
@@ -120,6 +123,7 @@
         <!--ESTE ES EL ENCABEZADO-->
     </head>
     <body>
+
         <header>
             <div class="container">
             <div class="row">
@@ -128,7 +132,7 @@
                     <h2 class="text-center mt-5 fst-italic"><span class="px-2 py-1">Symphalangus syndactylus</span></h2>
                     
                     <h1 class="text-center py-3">Siamang</h1>
-                    <!--desde acá la edición de nombres-->
+ <!--desde acá la edición de nombres-->
 
                     <h6 class="text-center mb-5 text-muted">
                         Por
@@ -138,7 +142,7 @@
                             data-bs-toggle="popover"
                             data-bs-trigger="hover focus"
                             data-bs-placement="top"
-                            data-bs-content="<div class='text-center'><img src='https://randomuser.me/api/portraits/men/14.jpg' class='w-50 mb-2 rounded-circle'><br>Nombre Apellido<br><span class='small text-muted'>Profesión</span></div>"
+                            data-bs-content="<div class='text-center'><img src='https://randomuser.me/api/portraits/men/14.jpg' class='w-50 mb-2 rounded-circle'><br>Soledad Delgado<br><span class='small text-muted'>Profesión</span></div>"
                         >
                             Soledad Delgado
                         </span>
@@ -150,7 +154,7 @@
                             data-bs-toggle="popover"
                             data-bs-trigger="hover focus"
                             data-bs-placement="top"
-                            data-bs-content="<div class='text-center'><img src='https://randomuser.me/api/portraits/women/14.jpg' class='w-50 mb-2 rounded-circle'><br>Nombre Apellido<br><span class='small text-muted'>Profesión</span></div>"
+                            data-bs-content="<div class='text-center'><img src='https://randomuser.me/api/portraits/women/14.jpg' class='w-50 mb-2 rounded-circle'><br>Francisca Molina<br><span class='small text-muted'>Diseñadora</span></div>"
                         >
                             Francisca Molina
                         </span>
@@ -572,6 +576,14 @@
                 },
             };
             const viewer = new ImageCompare(element, options).mount();
+        </script>
+
+    <!--CON ESTE CÓDIGO DE ACTIVA EL POPOVER SOBRE SU NOMBRE-->
+        <script>
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl, { html: true });
+            });
         </script>
     </body>
 </html>
