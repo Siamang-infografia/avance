@@ -21,13 +21,12 @@
 	.st15{fill:none;stroke:#006633;stroke-width:0.8781;stroke-miterlimit:10;stroke-dasharray:1.6196,1.2957;}
 	.st16{fill:none;stroke:#95C11F;stroke-width:0.8781;stroke-miterlimit:10;stroke-dasharray:1.6196,1.2957;}
 
-#leyenda{
-	opacity:0; transition:all ease 0.25s
-	}
-	svg:hover #leyenda{opacity:1; transition:all ease 0.25s}
-
+@media (hover: hover) {
+#leyendas{opacity:0; transition:all ease 0.25s}
+svg:hover #leyendas{opacity:1; transition:all ease 0.25s}
+}
 </style>
-<g id="leyenda">
+<g id="leyendas">
 	<g>
 		<rect x="522" y="994.3" class="st0" width="155.2" height="42.9"/>
 		<text transform="matrix(1 0 0 1 521.9521 1002.8997)" class="st1"><tspan x="0" y="0" class="st2 st3 st4">24 de octubre, día internacional </tspan><tspan x="0" y="12" class="st2 st3 st4">del Gibón por la UICN  </tspan></text>
