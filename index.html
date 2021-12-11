@@ -244,7 +244,7 @@
 
         <main class="pb-5">
             <!--SECCIÓN MAPA-->
-            <section>
+            <section id="seccion_ancha1">
                 <div class="container-fluid g-0">
                     <div class="row g-0">
                         <div class="col-12">
@@ -256,26 +256,26 @@
             </section>
 
             <!--SECCIÓN TAXONOMIA-->
-            <section class="container">
+            <section class="container" id="seccion_comparativa1">
                 <div class="row">
                     <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                         <h3 class="text-center mt-5 mb-3">Taxonomía</h3>
                         <object data="cositas/taxonomia-siamang.svg" type="image/svg+xml" class="my-3" alt="taxonomía del siamang"></object>
                         <p>
-                            Ellos pertenecen a la Superfamilia de los Hominoideos, los que agrupan a los primates sin cola, incluyendo al humano. Las subespecies se diferencian principalmente por el lugar en donde habitan (Sumatra de
-                            Indonesia y Malasia).
+                            Ellos pertenecen a la Superfamilia de los Hominoideos, los que agrupan a los primates sin cola, incluyendo al humano. Las subespecies se diferencian principalmente por el lugar en donde habitan (Sumatra de Indonesia y Malasia).
                         </p>
                     </div>
                 </div>
             </section>
 
             <!--SECCIÓN MORFOLOGIA-->
-            <section class="container">
+            <section class="container" id="seccion_comparativa">
                 <div class="row">
                     <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                         <h3 class="text-center mt-5 mb-3">Morfología</h3>
                         <object data="cositas/grafico-tamanos.svg" alt="gráfico de tamaños hilobátidos" type="image/svg+xml" class="my-3"></object>
                         <p class="text-center mx-5 normal">El Siamang es el más grande de los gibones, su estatura es de 74 y 89 cm y pesan entre 10 y 12 kilos.</p>
+                        <h5 class="text-center my-5">Saco gular</h5>
                         <object class="mx-5" data="cositas/el-grito.svg" alt="siamang cantando" type="image/svg+xml"></object>
                         <div class="mx-auto px-3 py-2 rounded-pill shadow-sm" style="width: 220px; background: #90c00f;">
                             <audio id="elAudio">
@@ -287,26 +287,36 @@
                                 <label class="form-check-label" for="elSwitch">Escucha al Siamang</label>
                             </div>
                         </div>
-                        <h5 class="mt-5 mb-3 text-center">Saco gular</h5>
-                        <p>Una de las características más notables es el saco gular que se asemeja a una gran bolsa ubicada en la zona faríngea y que puede crecer casi tan grande como su cabeza. Este saco ayuda a amplificar el canto.</p>
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <object class="mx-auto" data="cositas/mano humana.svg" alt="mano humana" type="image/svg+xml"></object>
+                        <p class="my-5">Una de las características más notables es el saco gular que se asemeja a una gran bolsa ubicada en la zona faríngea y que puede crecer casi tan grande como su cabeza. Este saco ayuda a amplificar el canto.</p>
+                        <h5 class="text-center my-5">Manos y pies</h5>
+                        <div class="row text-center">
+                            <div class="col-sm-6 mb-3">
+                                <object class="mx-auto w-75" data="cositas/mano-humana.svg" alt="mano humana" type="image/svg+xml"></object>
+                                <p class="mb-4">Mano humana</p>
                             </div>
 
-                            <div class="col-sm-4">
-                                <object class="mx-auto" data="cositas/mano.svg" alt="mano de siamang" type="image/svg+xml"></object>
+                            <div class="col-sm-6 mb-3">
+                                <object class="mx-auto w-75" data="cositas/mano-siamang.svg" alt="mano de siamang" type="image/svg+xml"></object>
+                                <p class="mb-4">Mano siamang</p>
                             </div>
 
-                            <div class="col-sm-4">
-                                <object class="mx-auto" data="cositas/pie2.svg" alt="pie de siamang" type="image/svg+xml"></object>
+
+                            <div class="col-sm-6 mb-3">
+                                <object class="mx-auto w-75" data="cositas/pie-humano.svg" alt="pie de siamang" type="image/svg+xml"></object>
+                                <p class="mb-4">Pie humano</p>
                             </div>
 
-                            <p class="text-center mx-2 normal">Tienen pulgares opuestos y el dedo gordo del pie muy separado de los demás, en el pie poseen una membrana interdigital entre dedos II y III (se desconoce su función).</p>
+                            <div class="col-sm-6 mb-3">
+                                <object class="mx-auto w-75" data="cositas/pie-siamang.svg" alt="pie de siamang" type="image/svg+xml"></object>
+                                <p class="mb-4">Pie siamang</p>
+                            </div>
 
-                            <!--ANIMACIÓN CON GIF-->
+                            <p class="text-center mt-4">Tienen pulgares opuestos y el dedo gordo del pie muy separado de los demás, en el pie poseen una membrana interdigital entre dedos II y III (se desconoce su función).</p>
 
-                            <div class="text-center pb-4">
+                            <h5 class="text-center my-5">Bípedos en tierra</h5>
+
+
+                            <div class="text-center mb-4">
                                 <img src="cositas/gifcaminando.gif" class="w-50 mx-auto" alt="siamang bípedo" />
                             </div>
 
@@ -316,7 +326,8 @@
                 </div>
             </section>
 
-            <section class="container">
+            <!--SECCIÓN ANCHA-DESPLAZAMIENTO-->
+            <section class="container" id="seccion_comparativaw">
                 <div class="row">
                     <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                         <h3 class="text-center mt-5 mb-3">El acróbata de la selva</h3>
@@ -328,7 +339,7 @@
                 </div>
             </section>
 
-            <section>
+            <section id="seccion_ancha">
                 <div class="container-fluid g-0">
                     <div class="row g-0">
                         <div class="col-12">
@@ -380,7 +391,8 @@
                 </div>
             </section>
 
-            <section class="container">
+            <!--SECCIÓN FAMILIAR-->
+            <section class="container" id="seccion_movilizada">
                 <div class="row">
                     <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                         <h3 class="text-center mt-5 mb-3">Comportamiento social y familiar</h3>
@@ -414,7 +426,8 @@
                 </div>
             </section>
 
-            <section class="container">
+            <!--SECCIÓN ALIMENTACION-->
+            <section class="container" id="seccion_movilizada">
                 <div class="row">
                     <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                         <h3 class="text-center mt-5 mb-3">Alimentación</h3>
@@ -429,7 +442,8 @@
                 </div>
             </section>
 
-            <section class="container">
+            <!--SECCIÓN AMENAZAS-->
+            <section class="container" id="seccion_yuxtapuesta">
                 <div class="row">
                     <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                         <h3 class="text-center mt-5 mb-3">Amenazas</h3>
