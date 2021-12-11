@@ -14,11 +14,10 @@
 	.st8{fill:#DEDDDD;}
 	.st9{font-family:"Roboto", bold}
 	.st10{fill:#006633;}
-
-	#alturas{
-	opacity:0; transition:all ease 0.25s
-	}
+	@media (hover: hover) {
+	#alturas{opacity:0; transition:all ease 0.25s}
 	svg:hover #alturas{opacity:1; transition:all ease 0.25s}
+	}
 </style>
 <g id="lineas">
 	<line class="st0" x1="94.2" y1="290.4" x2="766.8" y2="290.4"/>
