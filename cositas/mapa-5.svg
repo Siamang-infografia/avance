@@ -17,7 +17,7 @@
 <g id="Capa_1">
 	<g id="Capa_1_1_">
 		
-			<image style="overflow:visible;enable-background:new    ;" width="4500" height="3000" xlink:href="../../../../../avance-main/cositas/mapa-siamang.webp"  transform="matrix(0.2256 0 0 0.2256 -6.6813 -172.107)">
+			<image style="overflow:visible;enable-background:new    ;" width="4500" height="3000" xlink:href="mapa-siamang.webp"  transform="matrix(0.2256 0 0 0.2256 -6.6813 -172.107)">
 		</image>
 		<g>
 			<g>
@@ -35,7 +35,7 @@
 					</clipPath>
 					<g transform="matrix(1 0 0 1 0 0)" class="st0">
 						
-							<image style="overflow:visible;enable-background:new    ;" width="1152" height="632" xlink:href="../../../../../avance-main/cositas/mapa3.webp"  transform="matrix(0.1265 0 0 0.1265 845.5277 16.6186)">
+							<image style="overflow:visible;enable-background:new    ;" width="1152" height="632" xlink:href="mapa3.webp"  transform="matrix(0.1265 0 0 0.1265 845.5277 16.6186)">
 						</image>
 					</g>
 					<use xlink:href="#SVGID_2_"  style="overflow:visible;fill:none;stroke:#1D1D1B;stroke-width:0.5368;stroke-miterlimit:10;"/>
