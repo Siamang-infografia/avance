@@ -9,6 +9,10 @@
 	.st3{opacity:0.61;fill:#296338;enable-background:new    ;}
 	.st4{fill:none;stroke:#1D1D1B;stroke-width:0.5368;stroke-miterlimit:10;}
 	.st5{font-size:12px;}
+#lugares{
+	opacity:0; transition:all ease 0.25s
+	}
+	svg:hover #lugares{opacity:1; transition:all ease 0.25s}
 </style>
 <g id="Capa_1">
 	<g id="Capa_1_1_">
