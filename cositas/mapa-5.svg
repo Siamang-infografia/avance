@@ -4,7 +4,7 @@
 	 viewBox="0 0 1000 300" style="enable-background:new 0 0 1000 300;" xml:space="preserve">
 <style type="text/css">
 	.st0{clip-path:url(#SVGID_3_);}
-	.st1{font-family:'Roboto-Regular';}
+	.st1{font-family:'Roboto-Regular', sans-serif;}
 	.st2{font-size:9px;}
 	.st3{opacity:0.61;fill:#296338;enable-background:new    ;}
 	.st4{fill:none;stroke:#1D1D1B;stroke-width:0.5368;stroke-miterlimit:10;}
